@@ -4,3 +4,6 @@
   * https://aiohttp.readthedocs.io/en/stable/
 ## Build-a-GitHub-Bot Workshop
   * https://github-bot-tutorial.readthedocs.io/en/latest/
+## Pipenv: New Virtualenv Manage Tool
+  * Speaker: Akshay Gaikwad
+  * https://gitlab.com/akshay196/slides/blob/master/pipenv/pipenv.org
