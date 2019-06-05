@@ -25,7 +25,6 @@ Check out https://realpython.com/tutorials/docker/
 Upcoming events in Pune
 =======================
 * FOSS Meet 2019 at COEP, 30 & 31st Mar, 2019
-  http://foss.coep.org.in/fossmeet/
 
 * Women in Data Science, 23 Mar, 2019 at Persistent, Pune
   https://sites.google.com/view/widspune2019/about

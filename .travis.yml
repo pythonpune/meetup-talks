@@ -1,0 +1,14 @@
+---
+dist: xenial
+sudo: false
+
+addons:
+  apt:
+    sources:
+    - sourceline: 'ppa:mike42/mdcheckr'
+    packages:
+    - mdcheckr
+
+script:
+  # run mdcheckr on all *.md files
+  - git ls-files | grep '\.md$' | tr '\n' '\0' | xargs -0 mdcheckr
