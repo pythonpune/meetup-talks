@@ -10,7 +10,7 @@
     library from 2.3, which described in PEP-282.
 
   * [Slides](https://gitlab.com/akshay196/slides/blob/master/logging/presentation.org)
-  * [Source](https://github.com/pythonpune/meetup-talks/issues/10)
+  * [Proposal](https://github.com/pythonpune/meetup-talks/issues/10)
 
 ## Web app to control my AC over the internet
   * **Speaker**: Chaitanya Mathkar
@@ -20,7 +20,9 @@
     app. Celery, python module to run asynchronous tasks. MQTT
     protocol and paho-MQTT module to send data to multiple devices.
 
-  * [Source](https://github.com/pythonpune/meetup-talks/issues/13)
+  * [Slides](https://docs.google.com/presentation/d/1q0qw2O6a-XGQaC2bJTWJJGZb-Y2YTlUi307I75EcJnY)
+  * [Source](https://github.com/ChaitMat/my_room_environment_control)
+  * [Proposal](https://github.com/pythonpune/meetup-talks/issues/13)
 
 ## GNU Emacs - tool for all your editing needs
   * **Speaker**: Bhavin Gandhi
@@ -34,4 +36,4 @@
 
   * [Slides](https://bhavin192.gitlab.io/talks/2019/june-python-pune-meetup/gnu-emacs-talk.html)
   * [Slides with notes](https://gitlab.com/bhavin192/talks/raw/master/2019/june-python-pune-meetup/gnu-emacs-talk.org)
-  * [Source](https://github.com/pythonpune/meetup-talks/issues/11)
+  * [Proposal](https://github.com/pythonpune/meetup-talks/issues/11)
