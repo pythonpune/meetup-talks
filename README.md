@@ -8,3 +8,4 @@ Python Pune monthly talks
 ## [March](./2019/March/README.md)
 ## [April](./2019/April/README.md)
 ## [May](./2019/May/README.md)
+## [June](./2019/June/README.md)
