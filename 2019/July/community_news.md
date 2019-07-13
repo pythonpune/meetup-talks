@@ -30,7 +30,7 @@
   https://pradyunsg.me/blog/2019/06/23/pip-update/
 
 * Building reproducible Python applications for secured environments from rootconf 2019 
-  https://www.youtube.com/watch?v=WAKk83RVtLE&list=PL279M8GbNsesB7sxLO5zNbBHkOVvb7uvy&index=26&t=0s
+  https://www.youtube.com/watch?v=WAKk83RVtLE
 
 * Python's Tale from command line podcast 
   https://www.redhat.com/en/command-line-heroes/season-3/pythons-tale
@@ -66,7 +66,7 @@
 
 ## Amazing People
 * Nikhil Dhandhre enabled IRC telegram bot for Pythonpune
-  * Here is the pythonpune telegram group: 
+  * Here is the Python Pune telegram group: 
     https://t.me/joinchat/A3Rp5BDl9LpWMHujwZpGAw
 
 * Bhavin, Vishal & Akshay Gaikwad for leading July Python Pune 2019 meetup
@@ -76,4 +76,4 @@
    * Akshay Gaikwad
    * Chandan Kumar
    * Sourabh Deshmukh
-   * Vishal Vijay Raghavan
+   * Vishal Vijayraghavan
