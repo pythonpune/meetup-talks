@@ -52,6 +52,11 @@
 * What does debugging a program look like? 
   https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/
 
+## New Releases
+
+* mypy 0.720 released 
+  https://mypy-lang.blogspot.com/2019/07/mypy-0720-released.html
+
 ## Upcoming events in & around Pune
 
 * Rootconf Pune 2019 on 21st Sept, 2019, CFP is open 
