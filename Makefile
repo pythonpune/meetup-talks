@@ -1,6 +1,6 @@
 IMAGE = digitronik/mdchecks:latest
 # FILES =$(shell git ls-files -mo | grep '\.md' | tr '\n' '\0' | xargs -0)
-FILES = $(git diff --name-only HEAD $(git merge-base HEAD $TRAVIS_BRANCH))
+FILES = $(git diff --name-only HEAD $(git merge-base HEAD $TRAVIS_BRANCH) | grep '\.md' | tr '\n' '\0' | xargs -0)
 
 help:
 	@echo links: Check link status
