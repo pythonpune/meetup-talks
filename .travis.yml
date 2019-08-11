@@ -1,14 +1,10 @@
 ---
 dist: xenial
-sudo: false
+sudo: required
 
-addons:
-  apt:
-    sources:
-    - sourceline: 'ppa:mike42/mdcheckr'
-    packages:
-    - mdcheckr
+services:
+  - docker
 
 script:
-  # run mdcheckr on all *.md files
-  - git ls-files | grep '\.md$' | tr '\n' '\0' | xargs -0 mdcheckr
+  - make links
+  - make lint
