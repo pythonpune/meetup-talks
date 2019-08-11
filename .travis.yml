@@ -6,5 +6,4 @@ services:
   - docker
 
 script:
-  - make links
-  - make lint
+  - make travis
