@@ -45,6 +45,7 @@ This is the index of summaries of past events.
   * [May](./2019/May/README.md)
   * [June](./2019/June/README.md)
   * [July](./2019/July/README.md)
+  * [August](./2019/August/README.md)
 
 ## Code of Conduct
 Code of Conduct for [PythonPune meetup
