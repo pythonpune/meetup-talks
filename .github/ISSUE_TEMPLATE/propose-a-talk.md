@@ -18,6 +18,9 @@ assignees: ''
 **Description**
 <!-- Please include brief abstract about your talk. -->
 
+**Duration (including Q&A)**
+<!-- Please add estimated duration of the talk including Q&A -->
+
 **Prerequisites**
 <!-- If you have any specific requirement from audience -->
 <!-- for the talk i.e. software, tools set up on machine etc, please -->
