@@ -39,7 +39,7 @@
 ## Thanks
 
 * Thanks to shoptimize for providing venue for Sep PythonPune meetup 2019 
-  https://www.shoptimize.ai
+  https://www.shoptimize.ai     <!-- noqa -->
 
 ## Compiled by PythonPune
    * Chandan Kumar

@@ -10,6 +10,6 @@ addons:
 install:
 - pip3 install linkstatus
 script:
-- linkstatus -r 2018 2019
+- linkstatus --recursive --timeout 10 --retry 5 tests 2018 2019
 after_failure:
 - git diff

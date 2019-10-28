@@ -39,7 +39,7 @@
   https://gregoryszorc.com/blog/2019/06/24/building-standalone-python-applications-with-pyoxidizer/
 
 * Python Continuous Integration and Deployment From Scratch 
-  https://semaphoreci.com/blog/python-continuous-integration-continuous-delivery
+  https://semaphoreci.com/blog/python-continuous-integration-continuous-delivery    <!-- noqa -->
 
 * Why do Python lists let you += a tuple, when you can’t + a tuple? 
   https://lerner.co.il/2019/06/06/why-do-python-lists-let-you-a-tuple-when-you-cant-a-tuple/
