@@ -3,7 +3,7 @@
 ## News from Python Community
 
 * Who put Python in the Windows 10 May 2019 Update? 
-  https://devblogs.microsoft.com/python/python-in-the-windows-10-may-2019-update/
+  https://devblogs.microsoft.com/python/python-in-the-windows-10-may-2019-update/   <!-- noqa -->
 
 * The programmer who created Python isn’t interested in mentoring white guys 
   https://qz.com/1624252/pythons-creator-thinks-it-has-a-diversity-problem/

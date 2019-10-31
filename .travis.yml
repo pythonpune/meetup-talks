@@ -4,11 +4,12 @@ sudo: false
 
 addons:
   apt:
-    sources:
-    - sourceline: 'ppa:mike42/mdcheckr'
     packages:
-    - mdcheckr
+      - python3-pip
 
+install:
+- pip3 install linkstatus
 script:
-  # run mdcheckr on all *.md files
-  - git ls-files | grep '\.md$' | tr '\n' '\0' | xargs -0 mdcheckr
+- linkstatus --recursive --timeout 10 --retry 5 tests 2018 2019
+after_failure:
+- git diff
