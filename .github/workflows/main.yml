@@ -1,0 +1,36 @@
+name: meetup-talks
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+#      - name: Setup linkstatus, mdspell and write-good
+#        run: |
+#          sudo apt-get update --fix-missing
+#          sudo apt install nodejs
+#          sudo npm install markdown-spellcheck -g
+#          sudo npm install write-good -g
+#          python3 -m pip install linkstatus --user
+
+      - name: Checkout to changes
+        uses: actions/checkout@v1
+
+      - name: Check Links
+        run: |
+          git diff remote/origin/${{ github.base_ref}} --name-only --diff-filter=MA
+#          changes=$(git diff --diff-filter=d --name-only remotes/origin/${{ github.base_ref }})
+#          echo $changes
+
+#          ~/.local/bin/linkstatus --recursive --timeout 10 --retry 5 $changes
+
+#      - name: Spelling Suggestions
+#        run: |
+#          changes=$(git diff remotes/origin/${{ github.base_ref }} --name-only --diff-filter=d)
+#          mdspell -r -n -a --en-us $changes || true
+#
+#      - name: Good Writing Suggestions
+#        run: |
+#          changes=$(git diff remotes/origin/${{ github.base_ref }} --name-only --diff-filter=d)
+#          write-good $changes || true
