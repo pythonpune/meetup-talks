@@ -1,0 +1,14 @@
+name: meetup-talks
+
+on: [push]
+
+jobs:
+  linkstatus:
+    runs-on: ubuntu-latest
+    name: Link Status Check
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install linkstatus
+      run: python3 -m pip install linkstatus
+    - name: Check Links
+      run: linkstatus --recursive --timeout 10 --retry 5 tests 2018 2019
