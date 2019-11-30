@@ -1,17 +1,35 @@
-name: CI
+name: meetup-talks
 
-on: [push]
+on: [pull_request]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+      - name: Setup linkstatus, mdspell and write-good
+        run: |
+          sudo apt-get update --fix-missing
+          sudo apt install nodejs
+          npm config set prefix=$HOME/.node
+          echo "::add-path::$HOME/.node/bin"
+          npm install markdown-spellcheck -g
+          npm install write-good -g
+          python3 -m pip install linkstatus --user
+          echo "::add-path::$HOME/.local/bin"
+
+      - name: Checkout to changes
+        uses: actions/checkout@v1
+
+      - name: Affected Files
+        run: |
+          echo ::set-env name=AFFECTED_FILES::$(git diff remotes/origin/${{ github.base_ref }} \
+          --name-only --diff-filter=d)
+
+      - name: Check Links
+        run: linkstatus --recursive --timeout 10 --retry 5 $AFFECTED_FILES
+
+      - name: Spelling Suggestions
+        run: mdspell -r -n -a --en-us $AFFECTED_FILES || true
+
+      - name: Good Writing Suggestions
+        run: write-good $AFFECTED_FILES || true
