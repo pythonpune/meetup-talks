@@ -6,6 +6,7 @@ details of monthly events conducted as part of this group.
 * [Submit a talk](#submit-a-talkworkshop)
 * [Monthly newsletter](#monthly-newsletter)
 * [Summary of past events](#summary-of-past-events)
+* [How to add newsletter and event summary](#how-to-add-newsletter-and-event-summary)
 * [Code of Conduct](#code-of-conduct)
 * [License](#license)
 
@@ -27,8 +28,10 @@ and code snippets of the talk. Once done, the issue will be closed.
 
 ## Monthly newsletter
 At the beginning of every month an issue will be created. It will have
-'Newsletter Collection Box' in it's name. Anyone can post links to
-blog posts, news articles related to Python on this issue.
+'Newsletter Collection Box' in it's name. This issue will have
+[`newsletter`](https://github.com/pythonpune/meetup-talks/issues?q=is:issue+label:newsletter)
+label on it. Anyone can post links to blog posts, news articles
+related to Python on this issue.
 
 All the links will be compiled together and saved as
 `community_news.md` in that months directory. It will be presented
@@ -49,6 +52,30 @@ This is the index of summaries of past events.
   * [September](./2019/September/README.md)
   * [October](./2019/October/README.md)
   * [November](./2019/November/README.md)
+
+## How to add newsletter and event summary
+To add newsletter file (`community_news.md`) and event summary
+(`README.md`) for the current month run following command.
+
+> **Note**: It will not overwrite the existing files from the directory.
+
+```console
+$ make event_entry
+Creating summary and newsletter files for '2020/March'.
+mkdir --parents 2020/March
+cp --no-clobber templates/README.md 2020/March
+cp --no-clobber templates/community_news.md 2020/March
+```
+
+It's possible to generate the files for a specific year and month
+combination by setting the value of `DIR` variable.
+```console
+$ DIR="2020/January" make event_entry
+Creating summary and newsletter files for '2020/January'.
+mkdir --parents 2020/January
+cp --no-clobber templates/README.md 2020/January
+cp --no-clobber templates/community_news.md 2020/January
+```
 
 ## Code of Conduct
 Code of Conduct for [PythonPune meetup
