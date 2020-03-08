@@ -40,6 +40,9 @@ during the meetup as well.
 ## Summary of past events
 This is the index of summaries of past events.
 
+* 2020
+  * [January](./2020/January/README.md)
+  * [February](./2020/February/README.md)
 * 2019
   * [January](./2019/January/README.md)
   * [February](./2019/February/README.md)
@@ -52,6 +55,8 @@ This is the index of summaries of past events.
   * [September](./2019/September/README.md)
   * [October](./2019/October/README.md)
   * [November](./2019/November/README.md)
+  * [December](./2019/December/README.md)
+
 
 ## How to add newsletter and event summary
 To add newsletter file (`community_news.md`) and event summary
