@@ -48,6 +48,9 @@ places around the world) -->
 * Virtual Ansible Contributor Summit + Hackathon - Sunday, March 29, 2020 
 https://groups.google.com/forum/#!topic/ansible-outreach/iYFoB9g3cSE
 
+* First ever remote Cloud Native Rejekts - Wednesday, April 1, 2020
+https://virtual.rejekts.io/
+
 ## Thanks
 
 * Thanks to Vishal and Bhavin for organizing March PythonPune meetup 2020 https://www.meetup.com/PythonPune/events/269419831/
