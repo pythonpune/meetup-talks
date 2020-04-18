@@ -55,7 +55,7 @@ https://virtual.rejekts.io/
 
 * Thanks to Vishal and Bhavin for organizing March PythonPune meetup 2020 https://www.meetup.com/PythonPune/events/269419831/
 
-* Thank you A.P. Raj Shekhar and Kumar Vipin Yadav for delivering Talks.
+* Thank you A.P. Rajshekhar and Kumar Vipin Yadav for delivering Talks.
 
 ## Compiled by PythonPune
 
