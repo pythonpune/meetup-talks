@@ -1,7 +1,6 @@
 baseURL: "https://pythonpune.in"
 languageCode: "en-us"
 title: "PythonPune"
-theme: "website-theme"
 
 # googleAnalytics: ''
 menu:
@@ -122,3 +121,9 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+module:
+  imports:
+  - path: github.com/pythonpune/website-theme
+  mounts:
+  - source: content
+    target: content
