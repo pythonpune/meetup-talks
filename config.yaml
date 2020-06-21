@@ -117,6 +117,9 @@ params:
     - icon: fa-meetup
       link: 'https://www.meetup.com/PythonPune'
       title: Meetup.com
+    quicklinks:
+    - text: Code of Conduct
+      link: '/code-of-conduct'
 markup:
   goldmark:
     renderer:
@@ -127,3 +130,5 @@ module:
   mounts:
   - source: content
     target: content
+  - source: CODE_OF_CONDUCT.md
+    target: content/code-of-conduct/index.md

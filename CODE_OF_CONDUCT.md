@@ -1,4 +1,6 @@
-# PythonPune Code of Conduct
+---
+title: PythonPune Code of Conduct
+---
 
 *Anti-Harassment and Anti-Bullying Code of Conduct*
 
