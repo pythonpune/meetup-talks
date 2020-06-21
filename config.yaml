@@ -21,8 +21,17 @@ menu:
     url: /tags/
     weight: -80
   postpend:
+  - url: /categories/event/
+    name: Meetings
+    title: Posts related to events
+    weight: 8
+  - url: /categories/newsletter/
+    name: Newsletters
+    title: Monthly newsletters
+    weight: 9
   - url: 'https://www.meetup.com/pythonpune/'
     name: Meetup Page
+    title: Visit PythonPune on meetup.com
     weight: 10
 params:
   name: PythonPune
@@ -69,7 +78,7 @@ params:
   recent:
     enable: false
   portfolio:
-    enable: true
+    enable: false
     title: Previous Meetings
     subtitle: ''
     modal:
