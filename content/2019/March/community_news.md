@@ -1,5 +1,12 @@
-News and Updates
-================
+---
+title: "PythonPune Community Newsletter [March 2019 Edition]"
+date: 2019-04-14T17:35:26+05:30
+url: newsletter/march-2019
+featured_image:
+categories:
+- Newsletter
+tags:
+---
 
 Updates from Python Community
 =============================

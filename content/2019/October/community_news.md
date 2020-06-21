@@ -1,4 +1,12 @@
-# PythonPune Community Newsletter [October 2019 Edition]
+---
+title: "PythonPune Community Newsletter [October 2019 Edition]"
+date: 2019-10-19T11:08:19+05:30
+url: newsletter/october-2019
+featured_image:
+categories:
+- Newsletter
+tags:
+---
 
 ## News from Python Community
 

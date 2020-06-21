@@ -1,4 +1,12 @@
-# PythonPune Community Newsletter [March 2020 Edition]
+---
+title: "PythonPune Community Newsletter [March 2020 Edition]"
+date: 2020-03-21T10:35:44+05:30
+url: newsletter/march-2020
+featured_image:
+categories:
+- Newsletter
+tags:
+---
 
 ## News from Python Community
 <!-- Add selected news links from the latest issue:

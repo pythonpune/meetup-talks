@@ -1,4 +1,17 @@
-# June Python Pune meetup 2019
+---
+title: "June Python Pune meetup 2019"
+date: 2019-06-13T01:48:53+05:30
+lastmod: 2019-06-24T09:41:04+05:30
+event_date: 2019-06-08T10:30:00+05:30
+url: event/june-python-pune-meetup-2019
+featured_image:
+categories:
+- Event
+tags:
+---
+
+  * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/261809068/)
+  * [Community Newsletter](./community_news.md)
 
 ## Logging in Python
   * **Speaker**: Akshay Gaikwad
@@ -8,9 +21,9 @@
     constantly look at the flow that an application going
     through. Python has simple and powerful logging module as standard
     library from 2.3, which described in PEP-282.
-
-  * [Slides](https://gitlab.com/akshay196/slides/blob/master/logging/presentation.org)
-  * [Proposal](https://github.com/pythonpune/meetup-talks/issues/10)
+  * **References**:
+    * [Slides](https://gitlab.com/akshay196/slides/blob/master/logging/presentation.org)
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/10)
 
 ## Web app to control my AC over the internet
   * **Speaker**: Chaitanya Mathkar
@@ -19,10 +32,10 @@
     anywhere. Flask, the micro web framework are used to build the
     app. Celery, python module to run asynchronous tasks. MQTT
     protocol and paho-MQTT module to send data to multiple devices.
-
-  * [Slides](https://docs.google.com/presentation/d/1q0qw2O6a-XGQaC2bJTWJJGZb-Y2YTlUi307I75EcJnY)
-  * [Source](https://github.com/ChaitMat/my_room_environment_control)
-  * [Proposal](https://github.com/pythonpune/meetup-talks/issues/13)
+  * **References**:
+    * [Slides](https://docs.google.com/presentation/d/1q0qw2O6a-XGQaC2bJTWJJGZb-Y2YTlUi307I75EcJnY)
+	* [Source](https://github.com/ChaitMat/my_room_environment_control)
+	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/13)
 
 ## GNU Emacs - tool for all your editing needs
   * **Speaker**: Bhavin Gandhi
@@ -33,7 +46,7 @@
     should use GNU Emacs, it will cover various things Emacs can do out of
     the box. How it's possible to extend it for various programming
     languages and editing needs.
-
-  * [Slides](https://bhavin192.gitlab.io/talks/2019/june-python-pune-meetup/gnu-emacs-talk.html)
-  * [Slides with notes](https://gitlab.com/bhavin192/talks/raw/master/2019/june-python-pune-meetup/gnu-emacs-talk.org)
-  * [Proposal](https://github.com/pythonpune/meetup-talks/issues/11)
+  * **References**:
+    * [Slides](https://bhavin192.gitlab.io/talks/2019/june-python-pune-meetup/gnu-emacs-talk.html)
+	* [Slides with notes](https://gitlab.com/bhavin192/talks/raw/master/2019/june-python-pune-meetup/gnu-emacs-talk.org)
+	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/11)

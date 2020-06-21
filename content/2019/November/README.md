@@ -1,4 +1,14 @@
-# November Python Pune meetup 2019
+---
+title: "November Python Pune meetup 2019"
+date: 2019-11-30T16:40:45+05:30
+event_date: 2019-11-17T10:00:00+05:30
+url: event/november-python-pune-meetup-2019
+featured_image:
+categories:
+- Event
+tags:
+---
+
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/266249968/)
   * [Community Newsletter](./community_news.md)
 
@@ -9,11 +19,11 @@
     different features of the Scikit-Learn package. Talks about
     different algorithms which are available in the package followed
     by a demo using Jupyter notebook.
-
-  * [Slides](https://github.com/pythonpune/meetup-talks/files/3858362/ML.with.scikit-learn_rohit-walimbe.pdf)
-  * [Source](https://github.com/pythonpune/meetup-talks/files/3858380/scikitlearn_demo_python_pune.ipynb.zip)
-  * [Video recording](https://youtu.be/R0p7wvJ7EfQ)
-  * [Proposal](https://github.com/pythonpune/meetup-talks/issues/62)
+  * **References**:
+    * [Slides](https://github.com/pythonpune/meetup-talks/files/3858362/ML.with.scikit-learn_rohit-walimbe.pdf)
+	* [Source](https://github.com/pythonpune/meetup-talks/files/3858380/scikitlearn_demo_python_pune.ipynb.zip)
+	* [Video recording](https://youtu.be/R0p7wvJ7EfQ)
+	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/62)
 
 ## Demystifying Chatbots
   * **Speaker**: Shivam Sinha
@@ -22,19 +32,18 @@
     the current trends in the chat bots as service types of
     services. He dives into what goes behind the scenes for all this
     chat bots, how to improve them.
-
-  * [Slides](https://github.com/pythonpune/meetup-talks/files/3859344/demystifying-chatbots.pdf)
-  * [Video recording](https://youtu.be/YcGxLCz56pE)
-  * [Proposal](https://github.com/pythonpune/meetup-talks/issues/63)
-
+  * **References**:
+    * [Slides](https://github.com/pythonpune/meetup-talks/files/3859344/demystifying-chatbots.pdf)
+	* [Video recording](https://youtu.be/YcGxLCz56pE)
+	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/63)
 
 ## Friendly Introduction to Machine Learning
   * **Speaker**: Santosh Vijapure
   * **Description**: In this talk, Santosh starts with what is machine
     learning. He then covers topics like why we need it, how it's
     different, real world use cases etc
-
-  * [Proposal](https://github.com/pythonpune/meetup-talks/issues/65)
+  * **References**:
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/65)
 
 ## Discussion about IRC
   * **Speaker**: Tejas Sanap

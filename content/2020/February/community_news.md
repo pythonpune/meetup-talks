@@ -1,4 +1,12 @@
-# PythonPune Community Newsletter [February 2020 Edition]
+---
+title: "PythonPune Community Newsletter [February 2020 Edition]"
+date: 2020-02-09T10:57:39+05:30
+url: newsletter/february-2020
+featured_image:
+categories:
+- Newsletter
+tags:
+---
 
 ## News from Python Community
 

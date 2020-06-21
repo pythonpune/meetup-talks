@@ -12,6 +12,7 @@ draft: true
 
   * [Event page on meetup.com]()
   * [Community Newsletter](./community_news.md)
+  * [Recording]() <!-- link to video recording of live stream/whole event if available -->
 
 ## Talk title
   * **Speaker**: <!-- name of the speaker -->

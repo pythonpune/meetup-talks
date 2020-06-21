@@ -1,4 +1,12 @@
-# PythonPune Community Newsletter [APRIL 2019 Edition]
+---
+title: "PythonPune Community Newsletter [April 2019 Edition]"
+date: 2019-04-14T11:05:52+05:30
+url: newsletter/april-2019
+featured_image:
+categories:
+- Newsletter
+tags:
+---
 
 ## News from Python Community
 
