@@ -1,4 +1,13 @@
-# PythonPune Community Newsletter [<month> <year> Edition]
+---
+title: "PythonPune Community Newsletter [{{ now.Format "January 2006" }} Edition]"
+date: {{ .Date }}
+url: newsletter/{{ now.Format "January-2006" | lower }}
+featured_image:
+categories:
+- Newsletter
+tags:
+draft: true
+---
 
 ## News from Python Community
 <!-- Add selected news links from the latest issue:

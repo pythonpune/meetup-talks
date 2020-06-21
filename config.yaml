@@ -1,0 +1,124 @@
+baseURL: "https://pythonpune.in"
+languageCode: "en-us"
+title: "PythonPune"
+theme: "website-theme"
+
+# googleAnalytics: ''
+menu:
+  blognav:
+  - identifier: events
+    name: Events
+    title: Posts related to events
+    url: /categories/event/
+    weight: -100
+  - identifier: newsletters
+    name: Newsletters
+    title: Monthly newsletters
+    url: /categories/newsletter/
+    weight: -90
+  - identifier: tags
+    name: Tags
+    title: Tags
+    url: /tags/
+    weight: -80
+  postpend:
+  - url: 'https://www.meetup.com/pythonpune/'
+    name: Meetup Page
+    weight: 10
+params:
+  name: PythonPune
+  description: PythonPune Community
+  custom_css: []
+  custom_js: []
+  favicon: favicon.ico
+  disableFonts: false
+  error404:
+    heading: Page couldn't be found
+    text: 'Please visit [this page](/)'
+  navigation:
+    brand: PythonPune
+    logo: PythonPune_banner.svg
+    about: About
+    recent: Events
+    portfolio: Meetings
+    team: Team
+    join: Join Us
+    contact: Contact
+  hero:
+    title: Welcome To PythonPune
+    subtitle: It's nice to meet you
+    buttonText: Tell me more
+    img: PythonPune_banner.svg
+  about:
+    enable: true
+    title: About Us
+    subtitle: This is the community of Python programmers in Pune and beyond.
+    row:
+    - list:
+      - icon: fa-users
+        title: Community
+        description: ''
+        url: '#'
+      - icon: fa-code
+        title: Develop
+        description: ''
+        url: '#'
+      - icon: fa-meetup
+        title: Meetups
+        description: ''
+        url: '#'
+  recent:
+    enable: false
+  portfolio:
+    enable: true
+    title: Previous Meetings
+    subtitle: ''
+    modal:
+      client: Link
+      date: Date
+      category: Category
+      buttonText: Close
+  team:
+    enable: false
+  join:
+    enable: true
+    center: true
+    title: How to join us?
+    subtitle: Easy to connect us with these open platforms
+    row:
+    - list:
+      - icon: fa-comments-o
+        title: IRC Channel
+        description: 'Chat with us on IRC channel <b>#pythonpune</b> at freenode.'
+        url: 'https://webchat.freenode.net/#pythonpune'
+      - icon: fa-envelope-o
+        title: Mailing list
+        description: >-
+          Join PythonPune mailing group to get important announcements and
+          participate in discussions.
+        url: 'https://groups.google.com/forum/#!forum/pythonpune'
+  clients_list:
+    enable: false
+  contact:
+    enable: false
+  footer:
+    enable: true
+    copyright: >-
+      Copyright © 2013-2020 PythonPune. [![License: CC BY-SA
+      4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+      [More
+      details](https://github.com/pythonpune/meetup-talks#license).
+    social:
+    - icon: fa-twitter
+      link: 'https://twitter.com/pythonpune'
+      title: Twitter
+    - icon: fa-facebook
+      link: 'https://www.facebook.com/pythonpune'
+      title: Facebook
+    - icon: fa-meetup
+      link: 'https://www.meetup.com/PythonPune'
+      title: Meetup.com
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
