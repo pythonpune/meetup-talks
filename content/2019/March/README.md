@@ -4,6 +4,7 @@ date: 2019-04-13T23:10:56+05:30
 lastmod: 2019-04-14T17:35:26+05:30
 event_date: 2019-03-16T10:00:00+05:30
 url: event/docker-bday-6-how-do-you-docker
+author: Nikhil Dhandre
 featured_image:
 categories:
 - Event

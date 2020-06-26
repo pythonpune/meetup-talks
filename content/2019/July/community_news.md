@@ -2,6 +2,7 @@
 title: "PythonPune Community Newsletter [July 2019 Edition]"
 date: 2019-07-13T11:14:38+05:30
 url: newsletter/july-2019
+author: Chandan Kumar
 featured_image:
 categories:
 - Newsletter

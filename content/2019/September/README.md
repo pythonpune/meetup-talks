@@ -3,6 +3,7 @@ title: "September Python Pune meetup 2019"
 date: 2019-10-15T17:37:27+05:30
 event_date: 2019-09-28T10:00:00+05:30
 url: event/september-python-pune-meetup-2019
+author: Bhavin Gandhi
 featured_image:
 categories:
 - Event

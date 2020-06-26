@@ -2,6 +2,7 @@
 title: "PythonPune Community Newsletter [May 2019 Edition]"
 date: 2019-05-11T10:14:34+05:30
 url: newsletter/may-2019
+author: Chandan Kumar
 featured_image:
 categories:
 - Newsletter

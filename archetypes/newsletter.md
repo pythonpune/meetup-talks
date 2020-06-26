@@ -2,6 +2,7 @@
 title: "PythonPune Community Newsletter [{{ now.Format "January 2006" }} Edition]"
 date: {{ .Date }}
 url: newsletter/{{ now.Format "January-2006" | lower }}
+author:
 featured_image:
 categories:
 - Newsletter

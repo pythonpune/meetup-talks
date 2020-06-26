@@ -2,6 +2,7 @@
 title: "PythonPune Community Newsletter [August 2019 Edition]"
 date: 2019-08-10T11:26:26+05:30
 url: newsletter/august-2019
+author: Chandan Kumar
 featured_image:
 categories:
 - Newsletter

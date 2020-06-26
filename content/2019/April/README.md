@@ -3,6 +3,7 @@ title: "April Python Pune meetup 2019"
 date: 2019-04-17T23:32:13+05:30
 event_date: 2019-04-14T10:00:00+05:30
 url: event/april-python-pune-meetup-2019
+author: Nikhil Dhandre
 featured_image:
 categories:
 - Event

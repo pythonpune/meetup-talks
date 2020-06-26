@@ -2,6 +2,7 @@
 title: "PythonPune Community Newsletter [January 2020 Edition]"
 date: 2020-01-25T08:58:18+05:30
 url: newsletter/january-2020
+author: Chandan Kumar
 featured_image:
 categories:
 - Newsletter

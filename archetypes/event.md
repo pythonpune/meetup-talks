@@ -3,6 +3,7 @@ title: "{{ now.Format "January PythonPune meetup 2006" }}"
 date: {{ .Date }}
 event_date: {{ .Date }}
 url: event/{{ now.Format "January-PythonPune-meetup-2006" | lower }}
+author:
 featured_image:
 categories:
 - Event

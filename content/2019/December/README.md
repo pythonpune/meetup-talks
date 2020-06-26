@@ -3,6 +3,7 @@ title: "December Python Pune meetup 2019"
 date: 2020-03-07T23:57:35+05:30
 event_date: 2019-10-15T10:00:00+05:30
 url: event/december-python-pune-meetup-2019
+author: Bhavin Gandhi
 featured_image:
 categories:
 - Event

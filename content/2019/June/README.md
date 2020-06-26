@@ -4,6 +4,7 @@ date: 2019-06-13T01:48:53+05:30
 lastmod: 2019-06-24T09:41:04+05:30
 event_date: 2019-06-08T10:30:00+05:30
 url: event/june-python-pune-meetup-2019
+author: Akshay Gaikwad
 featured_image:
 categories:
 - Event

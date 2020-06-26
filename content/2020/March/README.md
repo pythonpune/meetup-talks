@@ -3,6 +3,7 @@ title: "March PythonPune meetup 2020"
 date: 2020-04-18T17:01:37+05:30
 event_date: 2020-03-21T10:30:00+05:30
 url: event/march-pythonpune-meetup-2020
+author: Bhavin Gandhi
 featured_image:
 categories:
 - Event

@@ -3,6 +3,7 @@ title: "January PythonPune meetup 2020"
 date: 2020-03-07T23:57:35+05:30
 event_date: 2020-01-25T10:00:00+05:30
 url: event/january-pythonpune-meetup-2020
+author: Bhavin Gandhi
 featured_image:
 categories:
 - Event

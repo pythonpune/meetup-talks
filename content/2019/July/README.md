@@ -3,6 +3,7 @@ title: "July Python Pune meetup 2019"
 date: 2019-07-22T10:20:07+05:30
 event_date: 2019-07-13T10:30:00+05:30
 url: event/july-python-pune-meetup-2019
+author: Bhavin Gandhi
 featured_image:
 categories:
 - Event

@@ -2,6 +2,7 @@
 title: "PythonPune Community Newsletter [May 2020 Edition]"
 date: 2020-05-30T00:14:49+05:30
 url: newsletter/may-2020
+author: Amol Kahat
 featured_image:
 categories:
 - Newsletter

@@ -3,6 +3,7 @@ title: "August Python Pune meetup 2019"
 date: 2019-08-27T20:15:26+05:30
 event_date: 2019-08-10T10:30:00+05:30
 url: event/august-python-pune-meetup-2019
+author: Akshay Gaikwad
 featured_image:
 categories:
 - Event

@@ -3,6 +3,7 @@ title: "May Python Pune meetup 2019"
 date: 2019-06-24T09:40:18+05:30
 event_date: 2019-05-11T10:00:00+05:30
 url: event/may-python-pune-meetup-2019
+author: Bhavin Gandhi
 featured_image:
 categories:
 - Event

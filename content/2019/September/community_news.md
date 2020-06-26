@@ -3,6 +3,7 @@ title: "PythonPune Community Newsletter [September 2019 Edition]"
 date: 2019-09-27T15:23:32+05:30
 lastmod: 2019-10-31T12:28:59+05:30
 url: newsletter/september-2019
+author: Chandan Kumar
 featured_image:
 categories:
 - Newsletter

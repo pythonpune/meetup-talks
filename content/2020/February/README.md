@@ -3,6 +3,7 @@ title: "Hands on chatbot development on Rasa"
 date: 2020-03-07T23:57:35+05:30
 event_date: 2020-02-09T09:00:00+05:30
 url: event/hands-on-chatbot-development-on-rasa
+author: Bhavin Gandhi
 featured_image:
 categories:
 - Event
