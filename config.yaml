@@ -40,9 +40,6 @@ params:
   custom_js: []
   favicon: favicon.ico
   disableFonts: false
-  error404:
-    heading: Page couldn't be found
-    text: 'Please visit [this page](/)'
   navigation:
     brand: PythonPune
     logo: PythonPune_banner.svg
