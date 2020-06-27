@@ -8,6 +8,9 @@ featured_image:
 categories:
 - Event
 tags:
+- GNU/Linux
+- DevSprint
+- Project
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/268010380/)

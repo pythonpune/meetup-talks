@@ -8,6 +8,10 @@ featured_image:
 categories:
 - Event
 tags:
+- Machine Learning
+- Scikit-Learn
+- Chatbots
+- IRC
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/266249968/)

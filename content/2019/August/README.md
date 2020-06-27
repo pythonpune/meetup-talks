@@ -8,6 +8,10 @@ featured_image:
 categories:
 - Event
 tags:
+- Genetic Algorithms
+- Neural Networks
+- Automation
+- Testing
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/263413078/)

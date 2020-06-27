@@ -8,6 +8,8 @@ featured_image:
 categories:
 - Event
 tags:
+- Workshop
+- Chatbots
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/268342726/)

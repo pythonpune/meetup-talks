@@ -8,6 +8,14 @@ featured_image:
 categories:
 - Event
 tags:
+- Twitter
+- Twint
+- Scraping
+- Problem solving
+- Parallel processing
+- Dask
+- Pandas
+- NumPy
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/262769950/)

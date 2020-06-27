@@ -9,6 +9,12 @@ featured_image:
 categories:
 - Event
 tags:
+- asyncio
+- aiohttp
+- Asynchronous programming
+- Pipenv
+- DevSprint
+- Bot
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/258986744/)

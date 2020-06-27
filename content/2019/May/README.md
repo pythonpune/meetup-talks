@@ -8,6 +8,7 @@ featured_image:
 categories:
 - Event
 tags:
+- Workshop
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/260729221/)

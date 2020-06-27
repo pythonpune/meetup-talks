@@ -8,6 +8,11 @@ featured_image:
 categories:
 - Event
 tags:
+- Python Internals
+- Testing
+- Serverless
+- Zappa
+- Natural Language Processing
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/265678404//)

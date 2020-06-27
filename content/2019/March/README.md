@@ -9,6 +9,11 @@ featured_image:
 categories:
 - Event
 tags:
+- Collaboration
+- Celebration
+- Docker Pune
+- Docker
+- Ansible
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/259469534/)

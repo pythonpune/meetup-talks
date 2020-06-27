@@ -8,6 +8,12 @@ featured_image:
 categories:
 - Event
 tags:
+- DevSprint
+- Celebration
+- Design
+- Project
+- Get Together
+- Ansible
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/267036137/)

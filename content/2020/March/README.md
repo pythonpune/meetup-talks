@@ -8,6 +8,9 @@ featured_image:
 categories:
 - Event
 tags:
+- Design patterns
+- Jenkins
+- CI/CD
 ---
 
 This was a first ever virtual event of PythonPune where everyone

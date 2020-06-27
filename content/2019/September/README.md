@@ -8,6 +8,10 @@ featured_image:
 categories:
 - Event
 tags:
+- AWS
+- Project
+- Regular expressions
+- Tips and tricks
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/264944825/)

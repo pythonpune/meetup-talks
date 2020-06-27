@@ -8,6 +8,9 @@ featured_image:
 categories:
 - Event
 tags:
+- asyncio
+- attrs
+- Asynchronous programming
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/257749384/)

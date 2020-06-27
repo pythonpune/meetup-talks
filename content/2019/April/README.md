@@ -8,6 +8,11 @@ featured_image:
 categories:
 - Event
 tags:
+- Collaboration
+- PyData Pune
+- Meteorology
+- GRIB
+- Project
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/260050456/)

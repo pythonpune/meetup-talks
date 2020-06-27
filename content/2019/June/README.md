@@ -9,6 +9,10 @@ featured_image:
 categories:
 - Event
 tags:
+- Logging
+- Project
+- Internet of Things
+- GNU Emacs
 ---
 
   * [Event page on meetup.com](https://www.meetup.com/PythonPune/events/261809068/)
