@@ -59,27 +59,38 @@ This is the index of summaries of past events.
 
 
 ## How to add newsletter and event summary
-To add newsletter file (`community_news.md`) and event summary
-(`README.md`) for the current month run following command.
+To add newsletter file (`community_news.md`) or event summary
+(`README.md`) for the current month run following commands. Make sure
+you have [installed
+Hugo](https://gohugo.io/getting-started/installing/ "Hugo docs page:
+Install Hugo") on your machine.
 
 > **Note**: It will not overwrite the existing files from the directory.
 
 ```console
-$ make event_entry
-Creating summary and newsletter files for '2020/March'.
-mkdir --parents 2020/March
-cp --no-clobber templates/README.md 2020/March
-cp --no-clobber templates/community_news.md 2020/March
+$ make event
+Creating summary files in 'content/2020/March'.
+mkdir --parents content/2020/March
+hugo new content/2020/March/README.md --kind "event"
+content/2020/March/README.md created
+```
+
+```console
+$ make newsletter
+Creating newsletter files in 'content/2020/March'.
+mkdir --parents content/2020/March
+hugo new content/2020/March/community_news.md --kind "newsletter"
+content/2020/March/community_news.md created
 ```
 
 It's possible to generate the files for a specific year and month
-combination by setting the value of `DIR` variable.
+combination by setting the value of `DATE_DIR` variable.
 ```console
-$ DIR="2020/January" make event_entry
-Creating summary and newsletter files for '2020/January'.
-mkdir --parents 2020/January
-cp --no-clobber templates/README.md 2020/January
-cp --no-clobber templates/community_news.md 2020/January
+$ DATE_DIR="2020/April" make event
+Creating summary files in 'content/2020/April'.
+mkdir --parents content/2020/April
+hugo new content/2020/April/README.md --kind "event"
+content/2020/April/README.md created
 ```
 
 ## Code of Conduct
