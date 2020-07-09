@@ -26,9 +26,9 @@ tags:
     by a demo using Jupyter notebook.
   * **References**:
     * [Slides](https://github.com/pythonpune/meetup-talks/files/3858362/ML.with.scikit-learn_rohit-walimbe.pdf)
-	* [Source](https://github.com/pythonpune/meetup-talks/files/3858380/scikitlearn_demo_python_pune.ipynb.zip)
-	* [Video recording](https://youtu.be/R0p7wvJ7EfQ)
-	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/62)
+    * [Source](https://github.com/pythonpune/meetup-talks/files/3858380/scikitlearn_demo_python_pune.ipynb.zip)
+    * [Video recording](https://youtu.be/R0p7wvJ7EfQ)
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/62)
 
 ## Demystifying Chatbots
   * **Speaker**: Shivam Sinha
@@ -39,8 +39,8 @@ tags:
     chat bots, how to improve them.
   * **References**:
     * [Slides](https://github.com/pythonpune/meetup-talks/files/3859344/demystifying-chatbots.pdf)
-	* [Video recording](https://youtu.be/YcGxLCz56pE)
-	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/63)
+    * [Video recording](https://youtu.be/YcGxLCz56pE)
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/63)
 
 ## Friendly Introduction to Machine Learning
   * **Speaker**: Santosh Vijapure

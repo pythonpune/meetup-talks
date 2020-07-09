@@ -39,8 +39,8 @@ tags:
     protocol and paho-MQTT module to send data to multiple devices.
   * **References**:
     * [Slides](https://docs.google.com/presentation/d/1q0qw2O6a-XGQaC2bJTWJJGZb-Y2YTlUi307I75EcJnY)
-	* [Source](https://github.com/ChaitMat/my_room_environment_control)
-	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/13)
+    * [Source](https://github.com/ChaitMat/my_room_environment_control)
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/13)
 
 ## GNU Emacs - tool for all your editing needs
   * **Speaker**: Bhavin Gandhi
@@ -53,5 +53,5 @@ tags:
     languages and editing needs.
   * **References**:
     * [Slides](https://bhavin192.gitlab.io/talks/2019/june-python-pune-meetup/gnu-emacs-talk.html)
-	* [Slides with notes](https://gitlab.com/bhavin192/talks/raw/master/2019/june-python-pune-meetup/gnu-emacs-talk.org)
-	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/11)
+    * [Slides with notes](https://gitlab.com/bhavin192/talks/raw/master/2019/june-python-pune-meetup/gnu-emacs-talk.org)
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/11)

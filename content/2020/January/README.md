@@ -34,5 +34,5 @@ tags:
     encryption in general.
   * **References**:
     * [Slides](https://gist.github.com/mayurilahane/31f0c97a5875c44f73f62010a8be43d2)
-	* [Source](https://github.com/paint-it/pygenpass)
-	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/77)
+    * [Source](https://github.com/paint-it/pygenpass)
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/77)

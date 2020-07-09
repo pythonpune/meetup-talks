@@ -29,8 +29,8 @@ tags:
     built-ins core constructs and standard libraries.
   * **References**:
     * [Slides](https://gabhijit.github.io/slides/pycon2019-poker/)
-	* [Source](https://github.com/gabhijit/pycon/tree/master/2019/poker)
-	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/22)
+    * [Source](https://github.com/gabhijit/pycon/tree/master/2019/poker)
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/22)
 
 ## Advanced Twitter Scraping using Twint
   * **Speaker**: Sourav Singh

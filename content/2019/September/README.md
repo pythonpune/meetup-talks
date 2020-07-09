@@ -43,9 +43,9 @@ tags:
     keep ourselves more focused.
   * **References**:
     * [Slides](https://drive.google.com/file/d/1RF_p3YDBb15FD6E0fuv1QePToRGmD4vQ/view)
-	* [Demo](https://youtu.be/IqMsb1ZTkBk)
-	* [Source](https://github.com/sundeep-co-in/makegoalsdaily)
-	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/19)
+    * [Demo](https://youtu.be/IqMsb1ZTkBk)
+    * [Source](https://github.com/sundeep-co-in/makegoalsdaily)
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/19)
 
 ## Regular Expressions - A Closer Look
   * **Speaker**: Deepa

@@ -21,6 +21,6 @@ draft: true
     talk/workshop. What was covered? -->
   * **References**:
     * [Slides]() <!-- link to slides -->
-	* [Source]() <!-- link to any code/snippets from talk -->
-	* [Video recording]() <!-- link to any video recording if available -->
-	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/<issue number>)
+    * [Source]() <!-- link to any code/snippets from talk -->
+    * [Video recording]() <!-- link to any video recording if available -->
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/<issue number>)

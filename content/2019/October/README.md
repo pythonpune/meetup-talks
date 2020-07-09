@@ -27,8 +27,8 @@ tags:
     understanding.
   * **References**:
     * [Slides](https://docs.google.com/presentation/d/1f6TF-dVIj3of5uhqFuCvgKJcfYpqpSbk9Cr8gVuAH8M/edit?usp=sharing)
-	* [Source](https://github.com/cshintov/py_vm/tree/talk/python-pune)
-	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/52)
+    * [Source](https://github.com/cshintov/py_vm/tree/talk/python-pune)
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/52)
 
 ## Functional testing using Python
   * **Speaker**: Soniya Vyas

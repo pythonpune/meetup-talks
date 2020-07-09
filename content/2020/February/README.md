@@ -22,6 +22,6 @@ tags:
     scenario in market to future prospects.
   * **References**:
     * [Slides]()
-	* [Source](https://github.com/colearninglounge/co-learning-lounge/tree/master/Technology/Artificial%20Intelligence/Natural%20Language%20Processing/Concepts/Chatbot/RASA/restaurant_bot)
-	* [Setup and Installation](https://github.com/colearninglounge/co-learning-lounge/blob/master/Technology/Artificial%20Intelligence/Natural%20Language%20Processing/Concepts/Chatbot/RASA/restaurant_bot/installation-instructions.md)
-	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/73)
+    * [Source](https://github.com/colearninglounge/co-learning-lounge/tree/master/Technology/Artificial%20Intelligence/Natural%20Language%20Processing/Concepts/Chatbot/RASA/restaurant_bot)
+    * [Setup and Installation](https://github.com/colearninglounge/co-learning-lounge/blob/master/Technology/Artificial%20Intelligence/Natural%20Language%20Processing/Concepts/Chatbot/RASA/restaurant_bot/installation-instructions.md)
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/73)

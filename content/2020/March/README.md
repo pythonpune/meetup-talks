@@ -31,8 +31,8 @@ stream. *Read more about our live streaming setup
     etc.
   * **References**:
     * [Slides](# "Link to the slides will be added soon.")
-	* [Video recording](https://youtu.be/Py_3SRITFEA)
-	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/82)
+    * [Video recording](https://youtu.be/Py_3SRITFEA)
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/82)
 
 ## Using Pipeline scripts in Jenkins
   * **Speaker**: Kumar Vipin Yadav
@@ -44,6 +44,6 @@ stream. *Read more about our live streaming setup
     manipulating environments variables and so on.
   * **References**:
     * [Slides](https://github.com/vipin3699/PP_Meetup_Talk/blob/master/Meetup_PPT.pdf)
-	* [Source](https://github.com/vipin3699/PP_Meetup_Talk)
-	* [Video recording](https://youtu.be/Zz1YR69-Pc4)
-	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/86)
+    * [Source](https://github.com/vipin3699/PP_Meetup_Talk)
+    * [Video recording](https://youtu.be/Zz1YR69-Pc4)
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/86)

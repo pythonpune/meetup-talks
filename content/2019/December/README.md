@@ -34,8 +34,8 @@ tags:
     guidelines of the logo and how to use it for various purposes.
   * **References**:
     * [Source](https://github.com/pythonpune/design)
-	* [Logo Files](https://github.com/pythonpune/design/wiki/Logo-Files)
-	* [PythonPune Logo Usage Guidelines](https://github.com/pythonpune/design/wiki/PythonPune-Logo-Usage-Guidelines)
+    * [Logo Files](https://github.com/pythonpune/design/wiki/Logo-Files)
+    * [PythonPune Logo Usage Guidelines](https://github.com/pythonpune/design/wiki/PythonPune-Logo-Usage-Guidelines)
 
 ## DevSprint
   * **Description**: During this DevSprint members worked on various
@@ -44,9 +44,9 @@ tags:
     contributing to LinkStatus, irc-bot, CInfo and Ansible.
   * **References**:
     * [Python 3.8.1rc1](https://www.python.org/downloads/release/python-381rc1/)
-	* [Get Together](https://github.com/GetTogetherComm/GetTogether)
-	* [LinkStatus](https://github.com/pythonpune/linkstatus)
-	* [irc-bot](https://github.com/pythonpune/bot-irc)
-	* [CInfo](https://github.com/chavarera/Cinfo/)
-	* [Ansible EasyFixes](https://github.com/ansible/community/issues/437)
-	* [Proposal](https://github.com/pythonpune/meetup-talks/issues/75)
+    * [Get Together](https://github.com/GetTogetherComm/GetTogether)
+    * [LinkStatus](https://github.com/pythonpune/linkstatus)
+    * [irc-bot](https://github.com/pythonpune/bot-irc)
+    * [CInfo](https://github.com/chavarera/Cinfo/)
+    * [Ansible EasyFixes](https://github.com/ansible/community/issues/437)
+    * [Proposal](https://github.com/pythonpune/meetup-talks/issues/75)
