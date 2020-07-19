@@ -2,6 +2,9 @@ HUGO ?= hugo
 DATE_DIR ?= $(shell date "+%Y/%B")
 DIR = content/$(DATE_DIR)
 
+build:
+	$(HUGO) --gc --minify
+
 newsletter:
 	@echo "Creating newsletter files in '$(DIR)'."
 	mkdir --parents $(DIR)
@@ -13,4 +16,4 @@ event:
 	$(HUGO) new $(DIR)/README.md --kind "event"
 
 server:
-	$(HUGO) server -D
+	$(HUGO) server --buildDrafts --buildFuture

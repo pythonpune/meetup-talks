@@ -1,4 +1,13 @@
-# PythonPune Community Newsletter [June 2020 Edition]
+---
+title: "PythonPune Community Newsletter [June 2020 Edition]"
+date: 2020-06-28T10:51:56+05:30
+url: newsletter/june-2020
+author: Chandan Kumar
+featured_image:
+categories:
+- Newsletter
+tags:
+---
 
 ## News from Python Community
 
