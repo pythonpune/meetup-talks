@@ -1,5 +1,5 @@
 ---
-name: Propose a talk/workshop
+name: Propose a talk / workshop
 about: Propose a talk or workshop for upcoming meetup/event
 title: ''
 labels: 'talk-proposal'
@@ -18,6 +18,11 @@ assignees: ''
 #### Description
 <!-- Please include brief abstract about your talk. -->
 
+#### Table of contents
+<!-- Please add an outline of your talk. A few bullet points which you
+will be covering during the talk can be added here. You can update
+this later as well. -->
+
 #### Duration (including Q&A)
 <!-- Please add estimated duration of the talk including Q&A -->
 
@@ -25,6 +30,13 @@ assignees: ''
 <!-- If you have any specific requirement from audience -->
 <!-- for the talk i.e. software, tools set up on machine etc, please -->
 <!-- include it here -->
+
+#### Speaker bio
+<!-- Please add your introduction. Also add link to your Twitter (make
+sure you follow PythonPune so that we can DM you there) or LinkedIn so
+that we can coordinate with you before the event. If you don't want to
+share any of the above, please send an email to punepython at
+gmail.com with subject: "Contact details for the talk". -->
 
 #### Checklist
 <!-- Place an '[x]' (no spaces) in all the fields you agree to. You can keep the fields blank on which you don't agree. -->
