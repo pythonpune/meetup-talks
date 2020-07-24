@@ -1,0 +1,34 @@
+name: Newsletter Issue
+
+on:
+  schedule:
+    # At 00:30 on day-of-month 1.
+    - cron: "30 0 1 * *"
+
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Event edition
+        id: event
+        run: echo "::set-output name=edition::$(date +'%B %Y')"
+
+      - name: Create issue
+        uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT: ${{ steps.event.outputs.edition }}
+        with:
+          filename: .github/ISSUE_TEMPLATE/newsletter_box.md
+        id: newsletter-issue
+
+      - name: IRC notification
+        uses: Gottox/irc-message-action@v1
+        with:
+          channel: '#pythonpune'
+          nickname: pypune_gh_${{ github.run_id }}
+          message: |-
+            ${{ steps.event.outputs.edition }} PythonPune newsletter collection box issue created.
+            Please feel free to contribute ${{ steps.newsletter-issue.outputs.url }}
