@@ -1,7 +1,7 @@
 ---
 title: "PythonPune Community Newsletter [July 2020 Edition]"
 date: 2020-06-25T00:03:41+05:30
-url: newsletter/june-2020
+url: newsletter/july-2020
 author: Chandan Kumar
 featured_image:
 categories:

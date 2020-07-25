@@ -18,7 +18,7 @@ tags:
   https://www.python.org/dev/peps/pep-8101/#results
 
 * What makes Python a great language? 
-  https://stevedower.id.au/blog/python-a-great-language/
+  https://stevedower.id.au/blog/python-a-great-language
 
 * A great collection of Python articles by David Beazley 
   https://www.dabeaz.com/usenix.html
