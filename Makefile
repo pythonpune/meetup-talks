@@ -1,7 +1,19 @@
-DIR ?= $(shell date "+%Y/%B")
+HUGO ?= hugo
+DATE_DIR ?= $(shell date "+%Y/%B")
+DIR = content/$(DATE_DIR)
 
-event_entry:
-	@echo "Creating summary and newsletter files for '$(DIR)'."
+build:
+	$(HUGO) --gc --minify
+
+newsletter:
+	@echo "Creating newsletter files in '$(DIR)'."
 	mkdir --parents $(DIR)
-	cp --no-clobber templates/README.md $(DIR)
-	cp --no-clobber templates/community_news.md $(DIR)
+	$(HUGO) new $(DIR)/community_news.md --kind "newsletter"
+
+event:
+	@echo "Creating summary files in '$(DIR)'."
+	mkdir --parents $(DIR)
+	$(HUGO) new $(DIR)/README.md --kind "event"
+
+server:
+	$(HUGO) server --buildDrafts --buildFuture

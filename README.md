@@ -40,46 +40,68 @@ during the meetup as well.
 ## Summary of past events
 This is the index of summaries of past events.
 
-* 2020
-  * [January](./2020/January/README.md)
-  * [February](./2020/February/README.md)
-* 2019
-  * [January](./2019/January/README.md)
-  * [February](./2019/February/README.md)
-  * [March](./2019/March/README.md)
-  * [April](./2019/April/README.md)
-  * [May](./2019/May/README.md)
-  * [June](./2019/June/README.md)
-  * [July](./2019/July/README.md)
-  * [August](./2019/August/README.md)
-  * [September](./2019/September/README.md)
-  * [October](./2019/October/README.md)
-  * [November](./2019/November/README.md)
-  * [December](./2019/December/README.md)
+<details>
+  <summary>2020</summary>
 
+  * [January](./content/2020/January/README.md)
+  * [February](./content/2020/February/README.md)
+  * [March](./content/2020/March/README.md)
+  * [April](./content/2020/April/README.md)
+  * [May](./content/2020/May/README.md)
+  * [June](./content/2020/June/README.md)
+</details>
+
+<details>
+  <summary>2019</summary>
+
+  * [January](./content/2019/January/README.md)
+  * [February](./content/2019/February/README.md)
+  * [March](./content/2019/March/README.md)
+  * [April](./content/2019/April/README.md)
+  * [May](./content/2019/May/README.md)
+  * [June](./content/2019/June/README.md)
+  * [July](./content/2019/July/README.md)
+  * [August](./content/2019/August/README.md)
+  * [September](./content/2019/September/README.md)
+  * [October](./content/2019/October/README.md)
+  * [November](./content/2019/November/README.md)
+  * [December](./content/2019/December/README.md)
+</details>
 
 ## How to add newsletter and event summary
-To add newsletter file (`community_news.md`) and event summary
-(`README.md`) for the current month run following command.
+To add newsletter file (`community_news.md`) or event summary
+(`README.md`) for the current month run following commands. Make sure
+you have [installed
+Hugo](https://gohugo.io/getting-started/installing/ "Hugo docs page:
+Install Hugo") and [Go](https://golang.org/doc/install "Go docs page:
+Install Go") on your machine.
 
 > **Note**: It will not overwrite the existing files from the directory.
 
 ```console
-$ make event_entry
-Creating summary and newsletter files for '2020/March'.
-mkdir --parents 2020/March
-cp --no-clobber templates/README.md 2020/March
-cp --no-clobber templates/community_news.md 2020/March
+$ make event
+Creating summary files in 'content/2020/March'.
+mkdir --parents content/2020/March
+hugo new content/2020/March/README.md --kind "event"
+content/2020/March/README.md created
+```
+
+```console
+$ make newsletter
+Creating newsletter files in 'content/2020/March'.
+mkdir --parents content/2020/March
+hugo new content/2020/March/community_news.md --kind "newsletter"
+content/2020/March/community_news.md created
 ```
 
 It's possible to generate the files for a specific year and month
-combination by setting the value of `DIR` variable.
+combination by setting the value of `DATE_DIR` variable.
 ```console
-$ DIR="2020/January" make event_entry
-Creating summary and newsletter files for '2020/January'.
-mkdir --parents 2020/January
-cp --no-clobber templates/README.md 2020/January
-cp --no-clobber templates/community_news.md 2020/January
+$ DATE_DIR="2020/April" make event
+Creating summary files in 'content/2020/April'.
+mkdir --parents content/2020/April
+hugo new content/2020/April/README.md --kind "event"
+content/2020/April/README.md created
 ```
 
 ## Code of Conduct
