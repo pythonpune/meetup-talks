@@ -1,3 +1,5 @@
+# Every month create newsletter issue.
+
 name: Newsletter Issue
 
 on:
@@ -27,8 +29,8 @@ jobs:
       - name: IRC notification
         uses: Gottox/irc-message-action@v1
         with:
-          channel: '#pythonpune'
-          nickname: pypune_gh_${{ github.run_id }}
+          channel: ${{ secrets.channel }}
+          nickname: newsletter_${{ github.run_id }}
           message: |-
             ${{ steps.event.outputs.edition }} PythonPune newsletter collection box issue created.
             Please feel free to contribute ${{ steps.newsletter-issue.outputs.url }}
