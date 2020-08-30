@@ -73,7 +73,7 @@ tags:
 
 ## Upcoming events in & around Pune
 
-* Tickets for PyCon India 2020 is now open! 
+* Tickets for PyCon India 2020 are available now! 
   https://in.pycon.org/2020
 
 ## Thanks
