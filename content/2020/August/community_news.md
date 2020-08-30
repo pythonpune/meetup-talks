@@ -53,7 +53,7 @@ tags:
   https://github.com/MarkForged/GOMP
  
 * Rich is a Python library for rich text and beautiful formatting in the terminal. 
-  https://github.com/willmcgugan/rich - 
+  https://github.com/willmcgugan/rich
  
 * A curated list of awesome Python frameworks, libraries, software and resources.
   https://github.com/vinta/awesome-python
