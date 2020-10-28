@@ -57,7 +57,7 @@ tags:
 * Free course for those who are interested in learning Python and Data analysis using Numpy and Pandas.
   https://jovian.ml/learn/data-analysis-with-python-zero-to-pandas
 
-* Python Full courses from FreeCodeCamp.org are available.
+* Python Full courses from FreeCodeCamp are available.
   https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB
 	
 ## Upcoming events in & around Pune
