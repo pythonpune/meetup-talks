@@ -35,7 +35,7 @@ tags:
 
 ## cffi FTW - Bringing Wireshark's Dissectors to Python
   * **Speaker**: Abhijit Gadgil
-    ([LinkedIn](https://www.linkedin.com/in/amgadgil/)
+    ([LinkedIn](https://www.linkedin.com/in/amgadgil/))
   * **Description**: Abhijit covers different solutions which are
     available to create Python bindings for libraries in C. He then
     talks about the specific solution for which he used cffi. He
