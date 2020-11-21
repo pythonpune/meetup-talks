@@ -24,3 +24,6 @@ draft: true
     * [Source]() <!-- link to any code/snippets from talk -->
     * [Video recording]() <!-- link to any video recording if available -->
     * [Proposal](https://github.com/pythonpune/meetup-talks/issues/<issue number>)
+
+> ***NOTE**: You can reach out to the speaker on the proposal page if
+> you want to discuss anything about this talk.*
