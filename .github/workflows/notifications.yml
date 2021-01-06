@@ -1,0 +1,40 @@
+# Send GitHub notifications to `pythonpune` IRC channel.
+
+name: Notifications
+
+on:
+  issue_comment:
+    types: [created]
+  issues:
+    types: [opened]
+
+jobs:
+  talk-proposal:
+    # run only when issue open with label `talk-proposal`.
+    if: github.event_name == 'issues' && contains(github.event.issue.labels.*.name, 'talk-proposal')
+    runs-on: ubuntu-latest
+    steps:
+      - name: talk-proposal link
+        run: echo ${{ github.event.issue.html_url }}
+      - name: IRC notification
+        uses: Gottox/irc-message-action@v1
+        with:
+          channel: ${{ secrets.channel }}
+          nickname: talk_proposal_${{ github.run_id }}
+          message: |-
+            Talk-Proposal: ${{ github.event.issue.title }}
+            ${{ github.event.issue.html_url }}
+
+  newsletter-comment:
+    # run only when comment on issue with label `newsletter`.
+    if: github.event_name == 'issue_comment' && contains(github.event.issue.labels.*.name, 'newsletter')
+    runs-on: ubuntu-latest
+    steps:
+      - name: comment
+        run: echo "${{ github.event.comment.body }}"
+      - name: IRC notification
+        uses: Gottox/irc-message-action@v1
+        with:
+          channel: ${{ secrets.channel }}
+          nickname: newsletter_${{ github.run_id }}
+          message: ${{ github.event.comment.body }}
