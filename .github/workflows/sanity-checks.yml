@@ -9,16 +9,22 @@ jobs:
   lint-files:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup linkstatus, mdspell and write-good
+      - name: Setup npm
         run: |
           sudo apt-get update --fix-missing
           sudo apt install nodejs
           npm config set prefix=${HOME}/.node
-          echo "::add-path::${HOME}/.node/bin"
+          echo "${HOME}/.node/bin" >> ${GITHUB_PATH}
+
+      - name: Install markdown-spellcheck and write-good
+        run: |
           npm install markdown-spellcheck -g
           npm install write-good -g
+
+      - name: Install linkstatus
+        run: |
           python3 -m pip install linkstatus --user
-          echo "::add-path::${HOME}/.local/bin"
+          echo "${HOME}/.local/bin" >> ${GITHUB_PATH}
 
       - name: Checkout to changes
         uses: actions/checkout@v2
@@ -29,16 +35,17 @@ jobs:
             refs/heads/${{ github.base_ref }}:${{ github.base_ref }}
 
       - name: Affected Files
+        id: diff
         run: |
           affected_files="$(git diff ${{ github.base_ref }} HEAD \
             --name-only --diff-filter=d | tr '\n' ' ')"
-          echo "::set-env name=AFFECTED_FILES::${affected_files}"
+          echo "::set-output name=AFFECTED_FILES::${affected_files}"
 
       - name: Check Links
-        run: "linkstatus --recursive --timeout 10 --retry 5 ${AFFECTED_FILES}"
+        run: "linkstatus --recursive --timeout 10 --retry 5 ${{ steps.diff.outputs.AFFECTED_FILES }}"
 
       - name: Spelling Suggestions
-        run: "mdspell -r -n -a --en-us ${AFFECTED_FILES} || true"
+        run: "mdspell -r -n -a --en-us ${{ steps.diff.outputs.AFFECTED_FILES }} || true"
 
       - name: Good Writing Suggestions
-        run: "write-good ${AFFECTED_FILES} || true"
+        run: "write-good ${{ steps.diff.outputs.AFFECTED_FILES }} || true"

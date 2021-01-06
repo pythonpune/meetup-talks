@@ -18,19 +18,19 @@ jobs:
         run: echo "::set-output name=edition::$(date +'%B %Y')"
 
       - name: Create issue
+        id: newsletter-issue
         uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           EVENT: ${{ steps.event.outputs.edition }}
         with:
           filename: .github/ISSUE_TEMPLATE/newsletter_box.md
-        id: newsletter-issue
 
       - name: IRC notification
         uses: Gottox/irc-message-action@v1
         with:
-          channel: ${{ secrets.channel }}
-          nickname: newsletter_${{ github.run_id }}
+          channel: "#pythonpune"
+          nickname: pypune_${{ github.run_id }}
           message: |-
             ${{ steps.event.outputs.edition }} PythonPune newsletter collection box issue created.
-            Please feel free to contribute ${{ steps.newsletter-issue.outputs.url }}
+            Please share any interesting articles, courses you find on this GitHub issue: ${{ steps.newsletter-issue.outputs.url }}

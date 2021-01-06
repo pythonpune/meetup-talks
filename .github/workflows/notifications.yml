@@ -19,10 +19,10 @@ jobs:
       - name: IRC notification
         uses: Gottox/irc-message-action@v1
         with:
-          channel: ${{ secrets.channel }}
-          nickname: talk_proposal_${{ github.run_id }}
+          channel: "#pythonpune"
+          nickname: pypune_${{ github.run_id }}
           message: |-
-            Talk-Proposal: ${{ github.event.issue.title }}
+            New talk proposal submission: ${{ github.event.issue.title }}
             ${{ github.event.issue.html_url }}
 
   newsletter-comment:
@@ -35,6 +35,8 @@ jobs:
       - name: IRC notification
         uses: Gottox/irc-message-action@v1
         with:
-          channel: ${{ secrets.channel }}
-          nickname: newsletter_${{ github.run_id }}
-          message: ${{ github.event.comment.body }}
+          channel: "#pythonpune"
+          nickname: pypune_${{ github.run_id }}_1
+          message: |-
+            ${{ github.event.comment.body }}
+            Have anything interesting to share? Add a comment here: ${{ github.event.comment.html_url }}
