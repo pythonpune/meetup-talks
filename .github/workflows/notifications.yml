@@ -39,4 +39,5 @@ jobs:
           nickname: pypune_${{ github.run_id }}_1
           message: |-
             ${{ github.event.comment.body }}
+            Submitted by: ${{ github.event.comment.user.login }}.
             Have anything interesting to share? Add a comment here: ${{ github.event.comment.html_url }}
