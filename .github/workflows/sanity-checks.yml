@@ -42,6 +42,7 @@ jobs:
           echo "::set-output name=AFFECTED_FILES::${affected_files}"
 
       - name: Check Links
+        if: false   # TODO: enable this as linkstatus fixed
         run: "linkstatus --recursive --timeout 10 --retry 5 ${{ steps.diff.outputs.AFFECTED_FILES }}"
 
       - name: Spelling Suggestions
