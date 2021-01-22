@@ -19,7 +19,7 @@ jobs:
       - name: IRC notification
         uses: Gottox/irc-message-action@v1
         with:
-          channel: "#pythonpune"
+          channel: ${{ secrets.CHANNEL }}
           nickname: pypune_${{ github.run_id }}
           message: |-
             New talk proposal submission: ${{ github.event.issue.title }}
@@ -31,11 +31,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: comment
-        run: echo "${{ github.event.comment.body }}"
+        env:
+          COMMENT: ${{ github.event.comment.body }}
+        run: echo "$COMMENT"
       - name: IRC notification
         uses: Gottox/irc-message-action@v1
         with:
-          channel: "#pythonpune"
+          channel: ${{ secrets.CHANNEL }}
           nickname: pypune_${{ github.run_id }}_1
           message: |-
             ${{ github.event.comment.body }}
