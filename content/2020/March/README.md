@@ -30,7 +30,7 @@ stream. *Read more about our live streaming setup
     around how one should design things by following these patterns
     etc.
   * **References**:
-    * [Slides](# "Link to the slides will be added soon.")
+    * [Slides](https://drive.google.com/file/d/1A7JoIbPWxWKWn_3lx05R9M5zFNuLAUyU/view)
     * [Video recording](https://youtu.be/Py_3SRITFEA)
     * [Proposal](https://github.com/pythonpune/meetup-talks/issues/82)
 

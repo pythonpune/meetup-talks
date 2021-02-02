@@ -41,6 +41,23 @@ during the meetup as well.
 This is the index of summaries of past events.
 
 <details>
+  <summary>2021</summary>
+
+  * [January](./content/2021/January/README.md)
+  <!-- * [February](./content/2021/February/README.md) -->
+  <!-- * [March](./content/2021/March/README.md) -->
+  <!-- * [April](./content/2021/April/README.md) -->
+  <!-- * [May](./content/2021/May/README.md) -->
+  <!-- * [June](./content/2021/June/README.md) -->
+  <!-- * [July](./content/2021/July/README.md) -->
+  <!-- * [August](./content/2021/August/README.md) -->
+  <!-- * [September](./content/2021/September/README.md) -->
+  <!-- * [October](./content/2021/October/README.md) -->
+  <!-- * [November](./content/2021/November/README.md) -->
+  <!-- * [December](./content/2021/December/README.md) -->
+</details>
+
+<details>
   <summary>2020</summary>
 
   * [January](./content/2020/January/README.md)
@@ -53,8 +70,8 @@ This is the index of summaries of past events.
   * [August](./content/2020/August/README.md)
   * [September](./content/2020/September/README.md)
   * [October](./content/2020/October/README.md)
-  <!-- * [November](./content/2020/November/README.md) -->
-  <!-- * [December](./content/2020/December/README.md) -->
+  * [November](./content/2020/November/README.md)
+  * [December](./content/2020/December/README.md)
 </details>
 
 <details>
