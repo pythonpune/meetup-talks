@@ -72,8 +72,8 @@ tags:
 
 ## Thanks
 
-* Mar PythonPune meetup 2021 is collaborated with BangPypers
-  Thanks to Abhiram, Anirudha, Ritesh, Bhavin, Akshay, Vishal for making it. 
+* March PythonPune meetup 2021 is in collaboration with BangPypers
+  Thanks to Abhiram, Anirudha, Ritesh, Bhavin, Akshay, Vishal for making it possible. 
   https://www.meetup.com/PythonPune/events/276960346/
 
 ## Compiled by PythonPune
