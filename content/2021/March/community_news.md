@@ -58,7 +58,7 @@ tags:
 ## Help Needed
 
 * PythonPune meetup user group is looking for speakers for monthly meetup talks,
-  Please submit talks here: https://github.com/pythonpune/meetup-talks/issues
+  Please submit talks here: https://github.com/pythonpune/meetup-talks/issues/new/choose
 
 * If you contribute to open-source projects, organize a meetup, help with the community,
   or basically spend 5 or more hours a month making the Python community better and
