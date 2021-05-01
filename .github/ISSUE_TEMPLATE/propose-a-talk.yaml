@@ -1,18 +1,18 @@
 name: Propose a talk / workshop
 description: "Propose a talk or workshop for upcoming meetup/event"
-title: ""
 labels:
 - talk-proposal
 assignees: []
 body:
 - type: markdown
-  value: |
-    👋 Thank you for showing interest in submitting a talk. You can
-    submit any talks which are not just related to Python Programming
-    language but also any programming language, new libraries learned,
-    some awesome projects you worked on, something new in Data
-    Science, Machine Learning, Automation, Cloud, Containers,
-    Hardware.
+  attributes:
+    value: |
+      👋 Thank you for showing interest in submitting a talk. You can
+      submit any talks which are not just related to Python
+      Programming language but also any programming language, new
+      libraries learned, some awesome projects you worked on,
+      something new in Data Science, Machine Learning, Automation,
+      Cloud, Containers, Hardware.
 
 - type: input
   id: title
