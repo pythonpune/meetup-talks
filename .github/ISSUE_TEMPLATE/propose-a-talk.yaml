@@ -1,0 +1,93 @@
+name: Propose a talk / workshop
+description: "Propose a talk or workshop for upcoming meetup/event"
+title: ""
+labels:
+- talk-proposal
+assignees: []
+body:
+- type: markdown
+  value: |
+    👋 Thank you for showing interest in submitting a talk. You can
+    submit any talks which are not just related to Python Programming
+    language but also any programming language, new libraries learned,
+    some awesome projects you worked on, something new in Data
+    Science, Machine Learning, Automation, Cloud, Containers,
+    Hardware.
+
+- type: input
+  id: title
+  attributes:
+    label: Title of the talk
+    description: "Please include a short title"
+  validations:
+    required: true
+
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: "Please include brief abstract about your talk"
+  validations:
+    required: true
+
+- type: textarea
+  id: toc
+  attributes:
+    label: Table of contents
+    description: "Please add an outline of your talk"
+    placeholder: |
+      A few bullet points which you will be covering during the talk
+      can be added here. You can update this later as well.
+  validations:
+    required: true
+
+- type: input
+  id: duration
+  attributes:
+    label: "Duration (including Q&A)"
+    description: "Please add estimated duration of the talk including Q&A"
+  validations:
+    required: true
+
+- type: textarea
+  id: prerequisites
+  attributes:
+    label: Prerequisites
+    description: "Any specific requirement from audience for the talk?"
+    placeholder: |
+      If you have any prerequisites like software, tools set up on
+      machine etc, please include it here.
+
+- type: textarea
+  id: bio
+  attributes:
+    label: Speaker bio
+    description: "Please add your introduction"
+    placeholder: |
+      Also add link to your Twitter (make sure you follow PythonPune
+      so that we can DM you there) or LinkedIn so that we can
+      coordinate with you before the event. If you don't want to share
+      any of the above, please send an email to punepython at
+      gmail.com with subject: "Contact details for the talk".
+  validations:
+    required: true
+
+- type: checkboxes
+  id: req
+  attributes:
+    label: The talk/workshop speaker agrees to
+    description: "You can keep the fields unchecked on which you don't agree."
+    options:
+    - label: "Share the slides, code snippets and other material used during the talk"
+      required: true
+    - label: |
+        If the talk is recorded, you grant the permission to release
+        the video on [PythonPune's YouTube
+        channel](https://www.youtube.com/channel/UCWjk7oGWV9eknuOzC20dyiQ)
+        under [CC-BY-4.0
+        license](https://creativecommons.org/licenses/by/4.0/)
+    - label: |
+        Not do any hiring pitches during the talk and follow the [Code
+        of
+        Conduct](https://github.com/pythonpune/meetup-talks#code-of-conduct)
+      required: true
