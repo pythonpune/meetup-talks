@@ -131,7 +131,7 @@ params:
   footer:
     enable: true
     copyright: >-
-      Copyright © 2013-2020 PythonPune. [![License: CC BY-SA
+      Copyright © 2013-2021 PythonPune. [![License: CC BY-SA
       4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
       [More
       details](https://github.com/pythonpune/meetup-talks#license).
