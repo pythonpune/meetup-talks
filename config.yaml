@@ -117,7 +117,8 @@ params:
       - icon: fa-telegram
         title: Telegram
         description: >-
-          Join **PythonPune** telegram group to chat with us.
+          Join **PythonPune** Telegram group to chat with us (linked
+          with the IRC channel).
         url: 'http://tel.pythonpune.in'
       - icon: fa-comments-o
         title: IRC Channel
