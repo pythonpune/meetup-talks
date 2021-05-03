@@ -148,7 +148,7 @@ params:
       link: 'https://www.facebook.com/pythonpune'
       title: Facebook
     - icon: fa-linkedin
-      link: 'https://www.linkedin.com/groups/13972437/'
+      link: 'https://www.linkedin.com/company/pythonpune/'
       title: LinkedIn
     - icon: fa-meetup
       link: 'https://www.meetup.com/PythonPune'
