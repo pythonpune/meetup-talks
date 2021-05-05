@@ -114,6 +114,12 @@ params:
     subtitle: Easy to connect us with these open platforms
     row:
     - list:
+      - icon: fa-telegram
+        title: Telegram
+        description: >-
+          Join **PythonPune** Telegram group to chat with us (linked
+          with the IRC channel).
+        url: 'http://tel.pythonpune.in'
       - icon: fa-comments-o
         title: IRC Channel
         description: 'Chat with us on IRC channel <b>#pythonpune</b> at freenode.'
@@ -142,6 +148,9 @@ params:
     - icon: fa-facebook
       link: 'https://www.facebook.com/pythonpune'
       title: Facebook
+    - icon: fa-linkedin
+      link: 'https://www.linkedin.com/company/pythonpune/'
+      title: LinkedIn
     - icon: fa-meetup
       link: 'https://www.meetup.com/PythonPune'
       title: Meetup.com
