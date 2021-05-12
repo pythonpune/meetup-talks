@@ -90,9 +90,8 @@ params:
           speakers specially the first timers to showcase their work
           or share their knowledge with everyone. All the variety of
           topics which are not just related to Python are
-          welcome. Submitting a talk is as easy as creating an [issue
-          on
-          GitHub](https://github.com/pythonpune/meetup-talks/issues/new?&labels=talk-proposal&template=propose-a-talk.md).
+          welcome. Submitting a talk is as easy as filling a [form on
+          GitHub](http://cfp.pythonpune.in).
         url: '#'
   recent:
     enable: false
