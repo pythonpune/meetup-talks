@@ -157,6 +157,10 @@ params:
     quicklinks:
     - text: Code of Conduct
       link: '/code-of-conduct'
+  floatbutton:
+    enable: true
+    text: Join our Telegram group
+    link: 'http://tel.pythonpune.in'
 markup:
   goldmark:
     renderer:
