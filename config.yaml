@@ -159,7 +159,7 @@ params:
       link: '/code-of-conduct'
   floatbutton:
     enable: true
-    text: Join our Telegram group
+    text: Chat on Telegram
     link: 'http://tel.pythonpune.in'
 markup:
   goldmark:
