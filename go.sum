@@ -1,4 +1,4 @@
 github.com/bep/portable-hugo-links v0.5.4-0.20200324203706-e51b1ae7dbd7 h1:h4mlOOOMoXQLFmtZKyWgjydsrb3Wx3AkgMZ79TskkiA=
 github.com/bep/portable-hugo-links v0.5.4-0.20200324203706-e51b1ae7dbd7/go.mod h1:THWnsWZWDsb4mF//7zPGPngV3N7HIOvIydJLClUvMRU=
-github.com/pythonpune/website-theme v0.0.0-20210514132033-54c2e3db22dd h1:T/sFlMgrz7eCDHYm8DrfZrV1BWMRJxuExzBTi4ZfepE=
-github.com/pythonpune/website-theme v0.0.0-20210514132033-54c2e3db22dd/go.mod h1:ozUPkIy5owDewB4t3wzjE/M8jVV54jpa58KiFxRlNO8=
+github.com/pythonpune/website-theme v0.0.0-20210515084928-0de9ed609deb h1:cr+A7r6vJxLG64Myezn4sV61ql4r6udcDv9x+gsRHRQ=
+github.com/pythonpune/website-theme v0.0.0-20210515084928-0de9ed609deb/go.mod h1:ozUPkIy5owDewB4t3wzjE/M8jVV54jpa58KiFxRlNO8=

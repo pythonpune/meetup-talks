@@ -159,7 +159,7 @@ params:
       link: '/code-of-conduct'
   floatbutton:
     enable: true
-    text: Chat on Telegram
+    text: '<i class="fa fa-telegram"></i> Chat'
     link: 'http://tel.pythonpune.in'
 markup:
   goldmark:
