@@ -19,11 +19,11 @@ jobs:
       - name: IRC notification
         uses: Gottox/irc-message-action@v1
         with:
+          server: irc.libera.chat
           channel: ${{ secrets.CHANNEL }}
           nickname: pypune_${{ github.run_id }}
           message: |-
-            New talk proposal submission: ${{ github.event.issue.title }}
-            ${{ github.event.issue.html_url }}
+            New talk proposal submission: ${{ github.event.issue.title }} ${{ github.event.issue.html_url }}
 
   newsletter-comment:
     # run only when comment on issue with label `newsletter`.
@@ -37,9 +37,9 @@ jobs:
       - name: IRC notification
         uses: Gottox/irc-message-action@v1
         with:
+          server: irc.libera.chat
           channel: ${{ secrets.CHANNEL }}
           nickname: pypune_${{ github.run_id }}_1
           message: |-
             ${{ github.event.comment.body }}
-            Submitted by: ${{ github.event.comment.user.login }}.
-            Have anything interesting to share? Add a comment here: ${{ github.event.comment.html_url }}
+            Submitted by: ${{ github.event.comment.user.login }}. Have anything interesting to share? Add a comment here: ${{ github.event.comment.html_url }}

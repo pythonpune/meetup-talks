@@ -29,6 +29,7 @@ jobs:
       - name: IRC notification
         uses: Gottox/irc-message-action@v1
         with:
+          server: irc.libera.chat
           channel: ${{ secrets.CHANNEL }}
           nickname: pypune_${{ github.run_id }}
           message: |-
