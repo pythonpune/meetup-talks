@@ -121,8 +121,8 @@ params:
         url: 'http://tel.pythonpune.in'
       - icon: fa-comments-o
         title: IRC Channel
-        description: 'Chat with us on IRC channel <b>#pythonpune</b> at freenode.'
-        url: 'https://webchat.freenode.net/#pythonpune'
+        description: 'Chat with us on IRC channel <b>#pythonpune</b> at Libera.Chat.'
+        url: 'https://kiwiirc.com/nextclient/#ircs://irc.libera.chat:6697/#pythonpune'
       - icon: fa-envelope-o
         title: Mailing list
         description: >-
